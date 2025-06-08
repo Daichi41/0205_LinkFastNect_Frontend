@@ -1,9 +1,7 @@
+/** 修正後（standalone機能を追加）*/
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
-  env: {
-    API_ENDPOINT: process.env.API_ENDPOINT,
-  }
-}
+    output: 'standalone'
+      }
 
 module.exports = nextConfig
